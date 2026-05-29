@@ -1,0 +1,20 @@
+{
+  // Cursor Tab (AI autocomplete) — faqat shu loyiha uchun o'chirilgan
+  "cursor.cpp.disabledLanguages": ["dart"],
+
+  // Kulrang inline takliflar ko'rinmasin
+  "editor.inlineSuggest.enabled": false,
+
+  // Tab bosganda taklifni qabul qilmasin (oddiy indent bo'lsin)
+  "editor.tabCompletion": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  // Avtomatik popup takliflar ham chiqmasin (LeetCode mashq uchun)
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off"
+}
